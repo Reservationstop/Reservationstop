@@ -386,7 +386,7 @@ echo $this->Html->link(
 			<div class="col-md-6"> <span class="to-con-1">Get in touch with us</span>
 				<h2>Get best travel deals</h2>
 				<p>Get best travel deals for hotels, holidays, trains.Donec eget odio a nunc lacinia rhoncus. Vivamus dignissim magna quis nisl fermentum porttitor. Maecenas venenatis mattis dui at pharetra.Nullam rutrum odio eu viverra accumsan. Nam orci elit, scelerisque eget dui non, sagittis tristique metus. Fusce nec nulla dapibus, fringilla nulla eu, vehicula odio. </p> <span class="to-con-2">Help line: +001 21745 12345</span>
-				<div class="ho-con-cont"> <a href="#" class="to-con-3 link-btn">Book Now</a> <a href="#" class="to-con-4 link-btn">Contact Now</a> </div>
+				<div class="ho-con-cont"> <a href="#" class="to-con-3 link-btn">Book Now</a> <a href="# " class="to-con-4 link-btn">Contact Now</a> </div>
 			</div>
 			<div class="col-md-6 ho-vid"> <img src="img/video.png" alt=""> </div>
 		</div>
