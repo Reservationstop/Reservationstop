@@ -46,7 +46,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">Australia</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>2</td>
@@ -54,7 +54,9 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">Dubai</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td>
+									<?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?>
+								</td>
 							</tr>
 							<tr>
 								<td>3</td>
@@ -62,7 +64,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">JAPAN</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>4</td>
@@ -70,7 +72,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">Switzerland</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>5</td>
@@ -78,7 +80,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">Poland</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>6</td>
@@ -86,7 +88,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">Australia</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>7</td>
@@ -94,7 +96,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">France</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>8</td>
@@ -102,7 +104,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">England</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>9</td>
@@ -110,7 +112,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">Dubai</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 							<tr>
 								<td>10</td>
@@ -118,7 +120,7 @@
 								<td class="e_h1">16.12.2016</td>
 								<td class="e_h1">10.00 PM</td>
 								<td class="e_h1">Poland</td>
-								<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+								<td><?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'link-btn', 'escape' => false]);?> </td>
 							</tr>
 						</tbody>
 					</table>

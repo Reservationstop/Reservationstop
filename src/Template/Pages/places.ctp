@@ -35,7 +35,7 @@
 						<div class="v_place_img"><img src="../img/t5.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">RIO DE JANEIRO<span class="v_pl_name">(Brazil)</span></a></h4> </div>
+								<h4><a href="#">RIO DE JANEIRO<span class="v_pl_name">(Brazil)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -60,7 +60,7 @@
 						<div class="v_place_img"><img src="../img/t1.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">DUBAI<span class="v_pl_name">(UAE)</span></a></h4> </div>
+								<h4><a href="#">DUBAI<span class="v_pl_name">(UAE)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -84,7 +84,7 @@
 						<div class="v_place_img"><img src="../img/t2.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">SOUTH INDIA<span class="v_pl_name">(INDIA)</span></a></h4> </div>
+								<h4><a href="#">SOUTH INDIA<span class="v_pl_name">(INDIA)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -108,7 +108,7 @@
 						<div class="v_place_img"><img src="../img/t3.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">MAURITIUS<span class="v_pl_name">(Indiana)</span></a></h4> </div>
+								<h4><a href="#">MAURITIUS<span class="v_pl_name">(Indiana)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -132,7 +132,7 @@
 						<div class="v_place_img"><img src="../img/t4.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -157,7 +157,7 @@
 						<div class="v_place_img"><img src="../img/t6.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -182,7 +182,7 @@
 						<div class="v_place_img"><img src="../img/t5.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -207,7 +207,7 @@
 						<div class="v_place_img"><img src="../img/t1.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -231,7 +231,7 @@
 						<div class="v_place_img"><img src="../img/t2.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -255,7 +255,7 @@
 						<div class="v_place_img"><img src="../img/t3.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -279,7 +279,7 @@
 						<div class="v_place_img"><img src="../img/t4.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -304,7 +304,7 @@
 						<div class="v_place_img"><img src="../img/t6.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -329,7 +329,7 @@
 						<div class="v_place_img"><img src="../img/t5.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -354,7 +354,7 @@
 						<div class="v_place_img"><img src="../img/t1.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -378,7 +378,7 @@
 						<div class="v_place_img"><img src="../img/t2.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -402,7 +402,7 @@
 						<div class="v_place_img"><img src="../img/t3.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -426,7 +426,7 @@
 						<div class="v_place_img"><img src="../img/t4.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>
@@ -451,7 +451,7 @@
 						<div class="v_place_img"><img src="../img/t6.png" alt="Tour Booking" title="Tour Booking" /> </div>
 						<div class="b_pack rows">
 							<div class="col-md-8 col-sm-8">
-								<h4><a href="tour-details.html">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
+								<h4><a href="#">NEIL ISLAND<span class="v_pl_name">(Port Blair)</span></a></h4> </div>
 							<div class="col-md-4 col-sm-4 pack_icon">
 								<ul>
 									<li>

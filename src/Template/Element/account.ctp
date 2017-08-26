@@ -16,29 +16,77 @@
 		<i class="fa fa-user" aria-hidden="true"></i> <?php echo $authUser['email']; ?></a>
 	<!-- Dropdown Structure -->
 	<ul id='dropdown1' class='dropdown-content top-menu'>
-		<li><a href="db-my-profile.html"><i class="fa fa-sign-in" aria-hidden="true"></i> My Profile</a>
-		</li>
-		<li><a href="register.html"><i class="fa fa-address-book-o" aria-hidden="true"></i> Register with us</a>
-		</li>
-		<li><a href="dashboard.html"><i class="fa fa-bookmark-o" aria-hidden="true"></i> My Bookings</a>
-		</li>
-		<li><a href="db-travel-booking.html"><i class="fa fa-umbrella" aria-hidden="true"></i> Tour Packages</a>
-		</li>
-		<li><a href="db-hotel-booking.html"><i class="fa fa-bed" aria-hidden="true"></i> Hotel Bookings</a>
-		</li>
-		<li><a href="db-refund.html"><i class="fa fa-ban" aria-hidden="true"></i> Cancel Bookings</a>
-		</li>
-		<li><a href="db-all-payment.html"><i class="fa fa-print" aria-hidden="true"></i> Prient E-Tickets</a>
+		<li>
+			<?=
+			$this->Html->link(
+				'<i class="fa fa-sign-in" aria-hidden="true"></i>' . __('My Profile'),
+				['controller' => 'users', 'action' => 'login'],
+				['class' => '', 'escape' => false]
+			);
+			?> 
 		</li>
 		<li>
-			<i class="fa fa-align-justify" aria-hidden="true"></i>
-			<?= 
+			<?=
 			$this->Html->link(
-				   __('Logut'),
-				   ['controller'=> 'users','action' => 'logout'],
-				   ['class' => 'ho-dr-con-last',]
+				'<i class="fa fa-address-book-o" aria-hidden="true"></i>' . __('Register with us'),
+				['controller' => 'users', 'action' => 'login'],
+				['class' => '', 'escape' => false]
 			);
-		   ?> 
+			?> 
+		</li>
+		<li>
+			<?=
+			$this->Html->link(
+				'<i class="fa fa-bookmark-o" aria-hidden="true"></i>' . __('My Bookings'),
+				['controller' => 'users', 'action' => 'login'],
+				['class' => '', 'escape' => false]
+			);
+			?> 
+		</li>
+		<li>
+			<?=
+			$this->Html->link(
+				'<i class="fa fa-umbrella" aria-hidden="true"></i>' . __('Tour Packages'),
+				['controller' => 'users', 'action' => 'login'],
+				['class' => '', 'escape' => false]
+			);
+			?> 
+		</li>
+		<li>
+			<?=
+			$this->Html->link(
+				'<i class="fa fa-bed" aria-hidden="true"></i>' . __('Hotel Bookings'),
+				['controller' => 'users', 'action' => 'login'],
+				['class' => '', 'escape' => false]
+			);
+			?> 
+		</li>
+		<li>
+			<?=
+			$this->Html->link(
+				'<i class="fa fa-ban" aria-hidden="true"></i>' . __('Cancel Bookings'),
+				['controller' => 'users', 'action' => 'login'],
+				['class' => '', 'escape' => false]
+			);
+			?> 
+		</li>
+		<li>
+			<?=
+			$this->Html->link(
+				'<i class="fa fa-print" aria-hidden="true"></i>' . __('Print E-Tickets'),
+				['controller' => 'users', 'action' => 'login'],
+				['class' => '', 'escape' => false]
+			);
+			?> 
+		</li>
+		<li>
+			<?=
+			$this->Html->link(
+				'<i class="fa fa-align-justify" aria-hidden="true"></i>' . __('LogOut'),
+				['controller' => 'users', 'action' => 'logout'],
+				['class' => 'ho-dr-con-last', 'escape' => false]
+			);
+			?> 
 		</li>
 	</ul>
 </li>

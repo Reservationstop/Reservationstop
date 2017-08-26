@@ -42,7 +42,15 @@
 								<li>Transfers</li>
 								<li>Sightseeing</li>
 								<li>Flights</li>
-								<li><a href="booking.html" class="link-btn">Book Now</a> </li>
+								<li>
+								<?=
+								$this->Html->link(
+									__('My Profile'),
+									['controller' => 'pages', 'action' => 'booking'],
+									['class' => 'link-btn', 'escape' => false]
+								);
+								?> 
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -59,7 +67,15 @@
 								<li>Transfers</li>
 								<li>Sightseeing</li>
 								<li>Flights</li>
-								<li><a href="booking.html" class="link-btn">Book Now</a> </li>
+								<li>
+								<?=
+								$this->Html->link(
+									__('My Profile'),
+									['controller' => 'pages', 'action' => 'booking'],
+									['class' => 'link-btn', 'escape' => false]
+								);
+								?> 
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -76,7 +92,15 @@
 								<li>Transfers</li>
 								<li>Sightseeing</li>
 								<li>Flights</li>
-								<li><a href="booking.html" class="link-btn">Book Now</a> </li>
+								<li>
+								<?=
+								$this->Html->link(
+									__('My Profile'),
+									['controller' => 'pages', 'action' => 'booking'],
+									['class' => 'link-btn', 'escape' => false]
+								);
+								?> 
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -93,7 +117,15 @@
 								<li>Transfers</li>
 								<li>Sightseeing</li>
 								<li>Flights</li>
-								<li><a href="booking.html" class="link-btn">Book Now</a> </li>
+								<li>
+								<?=
+								$this->Html->link(
+									__('My Profile'),
+									['controller' => 'pages', 'action' => 'booking'],
+									['class' => 'link-btn', 'escape' => false]
+								);
+								?> 
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -110,7 +142,15 @@
 								<li>Transfers</li>
 								<li>Sightseeing</li>
 								<li>Flights</li>
-								<li><a href="booking.html" class="link-btn">Book Now</a> </li>
+								<li>
+								<?=
+								$this->Html->link(
+									__('My Profile'),
+									['controller' => 'pages', 'action' => 'booking'],
+									['class' => 'link-btn', 'escape' => false]
+								);
+								?> 
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -127,7 +167,15 @@
 								<li>Transfers</li>
 								<li>Sightseeing</li>
 								<li>Flights</li>
-								<li><a href="booking.html" class="link-btn">Book Now</a> </li>
+								<li>
+								<?=
+								$this->Html->link(
+									__('My Profile'),
+									['controller' => 'pages', 'action' => 'booking'],
+									['class' => 'link-btn', 'escape' => false]
+								);
+								?> 
+								</li>
 							</ul>
 						</div>
 					</div>
