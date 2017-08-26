@@ -268,7 +268,14 @@
 									</a>
 								</div>
 								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Universal luxury Grand Hotel</h3></a>
+									<div class="hot-page2-alp-ri-p2">
+										<?=
+										$this->Html->link(
+											'<h3>' . __('Universal luxury Grand Hotel') .'</h3>',
+											['controller' => 'pages', 'action' => 'booking'],
+											['class' => '', 'escape' => false]
+										);
+										?>
 										<ul>
 											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
 											<li>+101-1231-1231, +61 6541-4561-12</li>
@@ -279,7 +286,7 @@
 								<div class="col-md-2">
 									<div class="hot-page2-alp-ri-p3">
 										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											<?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'hot-page2-alp-quot-btn', 'escape' => false]);?>
 										</span> </div>
 								</div>
 							</div>
@@ -294,7 +301,14 @@
 									</a>
 								</div>
 								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Taaj Club House</h3></a>
+									<div class="hot-page2-alp-ri-p2"> 
+										<?=
+										$this->Html->link(
+											'<h3>' . __('Taaj Club House') .'</h3>',
+											['controller' => 'pages', 'action' => 'booking'],
+											['class' => '', 'escape' => false]
+										);
+										?> 
 										<ul>
 											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
 											<li>+101-1231-1231, +61 6541-4561-12</li>
@@ -305,322 +319,12 @@
 								<div class="col-md-2">
 									<div class="hot-page2-alp-ri-p3">
 										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											<?=$this->Html->link(__('Book Now'),['controller' => 'pages', 'action' => 'booking'],['class' => 'hot-page2-alp-quot-btn', 'escape' => false]);?>
 										</span> </div>
 								</div>
 							</div>
 							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">5.0</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l4.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 53 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Barcelona Grand Pales</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.5</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l5.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 42 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Universal luxury Grand Hotel</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.0</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l6.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 18 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Taaj Club House</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">5.0</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l9.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 53 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Barcelona Grand Pales</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.5</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l8.jpg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 42 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Universal luxury Grand Hotel</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.5</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l1.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 42 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Universal luxury Grand Hotel</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.0</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l3.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 18 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Taaj Club House</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">5.0</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l4.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 53 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Barcelona Grand Pales</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.5</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l5.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 42 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Universal luxury Grand Hotel</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.0</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l6.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 18 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Taaj Club House</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">5.0</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l9.jpeg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 53 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Barcelona Grand Pales</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
-							<!--END LISTINGS-->
-							<!--LISTINGS START-->
-							<div class="hot-page2-alp-r-list">
-								<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-									<a href="javascript:void(0);">
-										<div class="hotel-list-score">4.5</div>
-										<div class="hot-page2-hli-1"> <img src="../img/hotels/l8.jpg" alt=""> </div>
-										<div class="hom-hot-av-tic hom-hot-av-tic-list"> Available Rooms: 42 </div>
-									</a>
-								</div>
-								<div class="col-md-6">
-									<div class="hot-page2-alp-ri-p2"> <a href="hotel-details.html"><h3>Universal luxury Grand Hotel</h3></a>
-										<ul>
-											<li>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</li>
-											<li>+101-1231-1231, +61 6541-4561-12</li>
-										</ul>
-										<p><b>Amenities: </b>Kitchen facilities, Swimming pools, Television, Wi-Fi, Hair dryer, Towels, Dining, Exercise, Parking, Music, GYM, Play Ground and more.. </p>
-									</div>
-								</div>
-								<div class="col-md-2">
-									<div class="hot-page2-alp-ri-p3">
-										<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Price Per Night</span> <span class="hot-list-p3-2">$650</span> <span class="hot-list-p3-3">$750</span> <span class="hot-list-p3-4">
-											<a href="booking1.html" class="hot-page2-alp-quot-btn">Book Now</a>
-										</span> </div>
-								</div>
-							</div>
+							
 							<!--END LISTINGS-->
 						</div>
 					</div>

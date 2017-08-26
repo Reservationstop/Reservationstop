@@ -78,7 +78,7 @@ echo $this->Html->link(
 					<div class="b_pack rows">
 						<!-- TOUR TITLE -->
 						<div class="col-md-8 col-sm-8">
-							<h4><a href="tour-details.html">Rio de Janeiro<span class="v_pl_name">(Brazil)</span></a></h4> </div>
+							<h4><a href="#">Rio de Janeiro<span class="v_pl_name">(Brazil)</span></a></h4> </div>
 						<!-- TOUR ICONS -->
 						<div class="col-md-4 col-sm-4 pack_icon">
 							<ul>
@@ -108,7 +108,7 @@ echo $this->Html->link(
 					<div class="b_pack rows">
 						<!-- TOUR TITLE -->
 						<div class="col-md-8 col-sm-8">
-							<h4><a href="tour-details.html">Paris<span class="v_pl_name">(England)</span></a></h4> </div>
+							<h4><a href="#">Paris<span class="v_pl_name">(England)</span></a></h4> </div>
 						<!-- TOUR ICONS -->
 						<div class="col-md-4 col-sm-4 pack_icon">
 							<ul>
@@ -133,7 +133,7 @@ echo $this->Html->link(
 					<div class="v_place_img"><img src="img/t2.png" alt="Tour Booking" title="Tour Booking" /> </div>
 					<div class="b_pack rows">
 						<div class="col-md-8 col-sm-8">
-							<h4><a href="tour-details.html">South India<span class="v_pl_name">(India)</span></a></h4> </div>
+							<h4><a href="#">South India<span class="v_pl_name">(India)</span></a></h4> </div>
 						<div class="col-md-4 col-sm-4 pack_icon">
 							<ul>
 								<li>
@@ -157,7 +157,7 @@ echo $this->Html->link(
 					<div class="v_place_img"><img src="img/t3.png" alt="Tour Booking" title="Tour Booking" /> </div>
 					<div class="b_pack rows">
 						<div class="col-md-8 col-sm-8">
-							<h4><a href="tour-details.html">The Great Wall<span class="v_pl_name">(China)</span></a></h4> </div>
+							<h4><a href="#">The Great Wall<span class="v_pl_name">(China)</span></a></h4> </div>
 						<div class="col-md-4 col-sm-4 pack_icon">
 							<ul>
 								<li>
@@ -181,7 +181,7 @@ echo $this->Html->link(
 					<div class="v_place_img"><img src="img/t4.png" alt="Tour Booking" title="Tour Booking" /> </div>
 					<div class="b_pack rows">
 						<div class="col-md-8 col-sm-8">
-							<h4><a href="tour-details.html">Nail Island<span class="v_pl_name">(Andaman)</span></a></h4> </div>
+							<h4><a href="#">Nail Island<span class="v_pl_name">(Andaman)</span></a></h4> </div>
 						<div class="col-md-4 col-sm-4 pack_icon">
 							<ul>
 								<li>
@@ -205,7 +205,7 @@ echo $this->Html->link(
 					<div class="v_place_img"><img src="img/t6.png" alt="Tour Booking" title="Tour Booking" /> </div>
 					<div class="b_pack rows">
 						<div class="col-md-8 col-sm-8">
-							<h4><a href="tour-details.html">Mauritius<span class="v_pl_name">(Indiana)</span></a></h4> </div>
+							<h4><a href="#">Mauritius<span class="v_pl_name">(Indiana)</span></a></h4> </div>
 						<div class="col-md-4 col-sm-4 pack_icon">
 							<ul>
 								<li>
@@ -244,7 +244,7 @@ echo $this->Html->link(
 			</div>
 			<!-- CITY -->
 			<div class="col-md-6">
-				<a href="tour-details.html">
+				<a href="#">
 					<div class="tour-mig-like-com">
 						<div class="tour-mig-lc-img"> <img src="img/listing/home.jpg" alt=""> </div>
 						<div class="tour-mig-lc-con">
@@ -255,7 +255,7 @@ echo $this->Html->link(
 				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="tour-details.html">
+				<a href="#">
 					<div class="tour-mig-like-com">
 						<div class="tour-mig-lc-img"> <img src="img/listing/home3.jpg" alt=""> </div>
 						<div class="tour-mig-lc-con tour-mig-lc-con2">
@@ -266,7 +266,7 @@ echo $this->Html->link(
 				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="tour-details.html">
+				<a href="#">
 					<div class="tour-mig-like-com">
 						<div class="tour-mig-lc-img"> <img src="img/listing/home2.jpg" alt=""> </div>
 						<div class="tour-mig-lc-con tour-mig-lc-con2">
@@ -277,7 +277,7 @@ echo $this->Html->link(
 				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="tour-details.html">
+				<a href="#">
 					<div class="tour-mig-like-com">
 						<div class="tour-mig-lc-img"> <img src="img/listing/home1.jpg" alt=""> </div>
 						<div class="tour-mig-lc-con tour-mig-lc-con2">
@@ -288,7 +288,7 @@ echo $this->Html->link(
 				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="tour-details.html">
+				<a href="#">
 					<div class="tour-mig-like-com">
 						<div class="tour-mig-lc-img"> <img src="img/listing/home4.jpg" alt=""> </div>
 						<div class="tour-mig-lc-con tour-mig-lc-con2">
@@ -324,7 +324,8 @@ echo $this->Html->link(
 							<div class="hot-page2-hli-3"> <img src="img/hci1.png" alt=""> </div>
 							<div class="hom-hot-av-tic"> Available Tickets: 42 </div> <img src="img/hotels/1.jpg" alt=""> </div>
 						<div class="to-ho-hotel-con-23">
-							<div class="to-ho-hotel-con-2"> <a href="hotel-details.html"><h4>GTC Grand Chola</h4></a> </div>
+							<div class="to-ho-hotel-con-2">
+								<a href="#"><h4>GTC Grand Chola</h4></a> </div>
 							<div class="to-ho-hotel-con-3">
 								<ul>
 									<li>City: illunois,united states
@@ -343,7 +344,7 @@ echo $this->Html->link(
 							<div class="hot-page2-hli-3"> <img src="img/hci1.png" alt=""> </div>
 							<div class="hom-hot-av-tic"> Available Tickets: 520 </div> <img src="img/hotels/2.jpg" alt=""> </div>
 						<div class="to-ho-hotel-con-23">
-							<div class="to-ho-hotel-con-2"> <a href="hotel-details.html"><h4>Taaj Grand Resorts</h4></a> </div>
+							<div class="to-ho-hotel-con-2"> <a href="#"><h4>Taaj Grand Resorts</h4></a> </div>
 							<div class="to-ho-hotel-con-3">
 								<ul>
 									<li>City: illunois,united states
@@ -362,7 +363,7 @@ echo $this->Html->link(
 							<div class="hot-page2-hli-3"> <img src="img/hci1.png" alt=""> </div>
 							<div class="hom-hot-av-tic"> Available Tickets: 92 </div> <img src="img/hotels/3.jpg" alt=""> </div>
 						<div class="to-ho-hotel-con-23">
-							<div class="to-ho-hotel-con-2"> <a href="hotel-details.html"><h4>Keep Grand Hotels</h4></a> </div>
+							<div class="to-ho-hotel-con-2"> <a href="#"><h4>Keep Grand Hotels</h4></a> </div>
 							<div class="to-ho-hotel-con-3">
 								<ul>
 									<li>City: illunois,united states
@@ -385,7 +386,7 @@ echo $this->Html->link(
 			<div class="col-md-6"> <span class="to-con-1">Get in touch with us</span>
 				<h2>Get best travel deals</h2>
 				<p>Get best travel deals for hotels, holidays, trains.Donec eget odio a nunc lacinia rhoncus. Vivamus dignissim magna quis nisl fermentum porttitor. Maecenas venenatis mattis dui at pharetra.Nullam rutrum odio eu viverra accumsan. Nam orci elit, scelerisque eget dui non, sagittis tristique metus. Fusce nec nulla dapibus, fringilla nulla eu, vehicula odio. </p> <span class="to-con-2">Help line: +001 21745 12345</span>
-				<div class="ho-con-cont"> <a href="hotels-list.html" class="to-con-3 link-btn">Book Now</a> <a href="contact.html" class="to-con-4 link-btn">Contact Now</a> </div>
+				<div class="ho-con-cont"> <a href="#" class="to-con-3 link-btn">Book Now</a> <a href="#" class="to-con-4 link-btn">Contact Now</a> </div>
 			</div>
 			<div class="col-md-6 ho-vid"> <img src="img/video.png" alt=""> </div>
 		</div>
@@ -418,83 +419,89 @@ echo $this->Html->link(
 					</tr>
 					<tr>
 						<td>1</td>
-						<td><img src="img/iplace-1.jpg" alt="" /><a href="hotels-list.html" class="events-title">Taj Mahal,Agra, India</a> </td>
+						<td><img src="img/iplace-1.jpg" alt="" /><a href="#" class="events-title">Taj Mahal,Agra, India</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">Australia</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>2</td>
-						<td><img src="img/iplace-2.jpg" alt="" /><a href="hotels-list.html" class="events-title">Salesforce Summer, Dubai</a> </td>
+						<td><img src="img/iplace-2.jpg" alt="" /><a href="#" class="events-title">Salesforce Summer, Dubai</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">Dubai</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>3</td>
-						<td><img src="img/iplace-3.jpg" alt="" /><a href="hotels-list.html" class="events-title">God Towers, TOKYO, JAPAN</a> </td>
+						<td><img src="img/iplace-3.jpg" alt="" /><a href="#" class="events-title">God Towers, TOKYO, JAPAN</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">JAPAN</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>4</td>
-						<td><img src="img/iplace-4.jpg" alt="" /><a href="hotels-list.html" class="events-title">TOUR DE ROMANDIE, Switzerland</a> </td>
+						<td><img src="img/iplace-4.jpg" alt="" /><a href="#" class="events-title">TOUR DE ROMANDIE, Switzerland</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">Switzerland</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>5</td>
-						<td><img src="img/iplace-5.jpg" alt="" /><a href="hotels-list.html" class="events-title">TOUR DE POLOGNE, Poland</a> </td>
+						<td><img src="img/iplace-5.jpg" alt="" /><a href="#" class="events-title">TOUR DE POLOGNE, Poland</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">Poland</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>6</td>
-						<td><img src="img/iplace-6.jpg" alt="" /><a href="hotels-list.html" class="events-title">Future of Marketing,Sydney, Australia</a> </td>
+						<td><img src="img/iplace-6.jpg" alt="" /><a href="#" class="events-title">Future of Marketing,Sydney, Australia</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">Australia</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>7</td>
-						<td><img src="img/iplace-7.jpg" alt="" /><a href="hotels-list.html" class="events-title">Eiffel Tower, Paris</a> </td>
+						<td><img src="img/iplace-7.jpg" alt="" /><a href="#" class="events-title">Eiffel Tower, Paris</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">France</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?> 
+						<?=
+							$this->Html->link(
+									__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]
+							);
+						?> 
+						</td>
 					</tr>
 					<tr>
 						<td>8</td>
-						<td><img src="img/iplace-8.jpg" alt="" /><a href="hotels-list.html" class="events-title">PARIS - ROUBAIX, England</a> </td>
+						<td><img src="img/iplace-8.jpg" alt="" /><a href="#" class="events-title">PARIS - ROUBAIX, England</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">England</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>9</td>
-						<td><img src="img/iplace-9.jpg" alt="" /><a href="hotels-list.html" class="events-title">Dubai Beach Resort, Dubai</a> </td>
+						<td><img src="img/iplace-9.jpg" alt="" /><a href="#" class="events-title">Dubai Beach Resort, Dubai</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">Dubai</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 					<tr>
 						<td>10</td>
-						<td><img src="img/iplace-4.jpg" alt="" /><a href="hotels-list.html" class="events-title">TOUR DE POLOGNE, Poland</a> </td>
+						<td><img src="img/iplace-4.jpg" alt="" /><a href="#" class="events-title">TOUR DE POLOGNE, Poland</a> </td>
 						<td class="e_h1">16.12.2016</td>
 						<td class="e_h1">10.00 PM</td>
 						<td class="e_h1">Poland</td>
-						<td><a href="booking.html" class="link-btn">Book Now</a> </td>
+						<td><?=$this->Html->link(__('Book Now'), ['controller' => 'pages', 'action' => 'booking'], ['class' => 'link-btn', 'escape' => false]);?>  </td>
 					</tr>
 				</tbody>
 			</table>
@@ -521,14 +528,14 @@ echo $this->Html->link(
 					<div class="col-md-6 col-sm-12 col-xs-12"> <img src="img/place2.jpg" alt="" /> </div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<h3><span>Honeymoon Package</span> 7 Days / 6 Nights</h3>
-						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="tour-details.html" class="link-btn">more info</a> </div>
+						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="#" class="link-btn">more info</a> </div>
 				</div>
 				<!-- POPULAR PLACES 2 -->
 				<div class="col-md-6 col-sm-6 col-xs-12 place">
 					<div class="col-md-6 col-sm-12 col-xs-12"> <img src="img/place1.jpg" alt="" /> </div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<h3><span>Family package</span> 14 Days / 13 Nights</h3>
-						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="tour-details.html" class="link-btn">more info</a> </div>
+						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="#" class="link-btn">more info</a> </div>
 				</div>
 			</div>
 			<div class="popu-places-home">
@@ -537,14 +544,14 @@ echo $this->Html->link(
 					<div class="col-md-6 col-sm-12 col-xs-12"> <img src="img/place3.jpg" alt="" /> </div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<h3><span>Weekend Package </span> 3 Days / 2 Nights</h3>
-						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="tour-details.html" class="link-btn">more info</a> </div>
+						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="#" class="link-btn">more info</a> </div>
 				</div>
 				<!-- POPULAR PLACES 4 -->
 				<div class="col-md-6 col-sm-6 col-xs-12 place">
 					<div class="col-md-6 col-sm-12 col-xs-12"> <img src="img/place4.jpg" alt="" /> </div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<h3><span>Group Package</span> 10 Days / 9 Nights</h3>
-						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="tour-details.html" class="link-btn">more info</a> </div>
+						<p>lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple</p> <a href="#" class="link-btn">more info</a> </div>
 				</div>
 			</div>
 		</div>
@@ -572,7 +579,7 @@ echo $this->Html->link(
 						<ul>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/hotels/1.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Taaj Club House</h5> <span>City: illunois, United States</span> </div>
@@ -581,7 +588,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/hotels/2.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Universal luxury Grand Hotel</h5> <span>City: Rio,Brazil</span> </div>
@@ -590,7 +597,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/hotels/3.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Barcelona Grand Pales</h5> <span>City: Chennai,India</span> </div>
@@ -599,7 +606,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/hotels/4.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Lake Palace view Hotel</h5> <span>City: Beijing,China</span> </div>
@@ -608,7 +615,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/hotels/8.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>First Class Grandd Hotel</h5> <span>City: Berlin,Germany</span> </div>
@@ -625,7 +632,7 @@ echo $this->Html->link(
 						<ul>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/trends/1.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Family Package Luxury</h5> <span>Duration: 7 Days and 6 Nights</span> </div>
@@ -634,7 +641,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/trends/2.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Honeymoon Package Luxury</h5> <span>Duration: 14 Days and 13 Nights</span> </div>
@@ -643,7 +650,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/trends/3.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Group Package Luxury</h5> <span>Duration: 28 Days and 29 Nights</span> </div>
@@ -652,7 +659,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/trends/4.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Regular Package Luxury</h5> <span>Duration: 12 Days and 11 Nights</span> </div>
@@ -661,7 +668,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/trends/1.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Custom Package Luxury</h5> <span>Duration: 10 Days and 10 Nights</span> </div>
@@ -678,7 +685,7 @@ echo $this->Html->link(
 						<ul>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/reviewer/1.jpg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Christopher</h5> <span>No of Reviews: 620, City: illunois</span> </div>
@@ -687,7 +694,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/reviewer/2.png" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Matthew</h5> <span>No of Reviews: 48, City: Rio</span> </div>
@@ -696,7 +703,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/reviewer/3.jpeg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Stephanie</h5> <span>No of Reviews: 560, City: Chennai</span> </div>
@@ -705,7 +712,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/reviewer/4.jpeg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Robert</h5> <span>No of Reviews: 920, City: Beijing</span> </div>
@@ -714,7 +721,7 @@ echo $this->Html->link(
 							</li>
 							<!--LISTINGS-->
 							<li>
-								<a href="hotels-list.html">
+								<a href="#">
 									<div class="hot-page2-hom-pre-1"> <img src="img/reviewer/5.jpeg" alt=""> </div>
 									<div class="hot-page2-hom-pre-2">
 										<h5>Danielle</h5> <span>No of Reviews: 768, City: Berlin</span> </div>
