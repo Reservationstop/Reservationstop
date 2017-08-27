@@ -80,12 +80,12 @@ class AppController extends Controller {
 	}
 
 	public function isAdminLteThemed() {
-		if ($this->request['controller'] != 'Pages' ||
-				$this->request['action'] = 'frontend'
+		if ($this->request['controller'] != "Pages"
+			||	$this->request['action'] == 'frontend'
 		) {
-			return false;
+			return true;
 		}
-		return true;
+			return false;
 	}
 
 }
