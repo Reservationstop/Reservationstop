@@ -1,3 +1,2 @@
-# CakePHP Application Skeleton
-
+# CakePHP 3
 
