@@ -80,8 +80,9 @@ class AppController extends Controller {
 	}
 
 	public function isAdminLteThemed() {
+		$notLteActions = ['home', 'about_us', 'events', 'places', 'blog', 'testimonials', 'price_list', 'discount', 'site_map', 'contact', 'tips', 'booking'];
 		if ($this->request['action'] == 'frontend' ||
-			(!empty($this->request['pass'][0]) && $this->request['pass'][0] == 'home')
+			(!empty($this->request['pass'][0]) && in_array($this->request['pass'][0], $notLteActions))
 		) {
 			return false;
 		}
