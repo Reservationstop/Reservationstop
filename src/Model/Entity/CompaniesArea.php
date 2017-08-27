@@ -4,25 +4,18 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Area Entity
+ * CompaniesArea Entity
  *
  * @property int $id
+ * @property int $company_id
+ * @property bool $online_avail
+ * @property int $priority
+ * @property int $status
  * @property string $name
- * @property string $type
- * @property int $lft
- * @property int $parent_id
- * @property int $rght
- * @property float $latitude
- * @property float $longitude
- * @property int $country_id
- * @property string $keywords
  *
- * @property \App\Model\Entity\ParentArea $parent_area
- * @property \App\Model\Entity\Country $country
- * @property \App\Model\Entity\ChildArea[] $child_areas
- * @property \App\Model\Entity\Company[] $companies
+ * @property \App\Model\Entity\Company $company
  */
-class Area extends Entity
+class CompaniesArea extends Entity
 {
 
     /**

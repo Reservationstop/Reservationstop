@@ -30,13 +30,11 @@ use Cake\ORM\Entity;
  * @property bool $shared_customers
  * @property int $cvr
  * @property int $cvrp
- * @property int $area_id
- * @property string $areas
+ * @property int $geographical_area_id
  * @property int $price
  * @property string $kitchen
  * @property string $tags
  * @property string $accountid
- * @property string $app_type
  * @property string $insideview
  * @property int $politikenid
  * @property \Cake\I18n\FrozenDate $invoice_startdate
@@ -53,8 +51,11 @@ use Cake\ORM\Entity;
  * @property \App\Model\Entity\Timezone $timezone
  * @property \App\Model\Entity\Currency $currency
  * @property \App\Model\Entity\Language $language
- * @property \App\Model\Entity\Area $area
+ * @property \App\Model\Entity\GeographicalArea $geographical_area
  * @property \App\Model\Entity\ChildCompany[] $child_companies
+ * @property \App\Model\Entity\CompaniesArea[] $companies_areas
+ * @property \App\Model\Entity\CompaniesAreasOpeningSchedule[] $companies_areas_opening_schedule
+ * @property \App\Model\Entity\CompaniesAreasOverridesSchedule[] $companies_areas_overrides_schedule
  */
 class Company extends Entity
 {

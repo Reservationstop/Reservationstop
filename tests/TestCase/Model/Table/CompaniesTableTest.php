@@ -31,14 +31,16 @@ class CompaniesTableTest extends TestCase
         'app.users',
         'app.languages',
         'app.alternative_languages',
-        'app.facebooks',
         'app.user_permissions',
         'app.roles',
         'app.restaurants',
         'app.statuses',
         'app.groups',
         'app.timezones',
-        'app.areas'
+        'app.geographical_areas',
+        'app.companies_areas',
+        'app.companies_areas_opening_schedule',
+        'app.companies_areas_overrides_schedule'
     ];
 
     /**

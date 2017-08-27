@@ -1,22 +1,22 @@
 <?php
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\AreasTable;
+use App\Model\Table\CompaniesAreasTable;
 use Cake\ORM\TableRegistry;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\AreasTable Test Case
+ * App\Model\Table\CompaniesAreasTable Test Case
  */
-class AreasTableTest extends TestCase
+class CompaniesAreasTableTest extends TestCase
 {
 
     /**
      * Test subject
      *
-     * @var \App\Model\Table\AreasTable
+     * @var \App\Model\Table\CompaniesAreasTable
      */
-    public $Areas;
+    public $CompaniesAreas;
 
     /**
      * Fixtures
@@ -24,24 +24,8 @@ class AreasTableTest extends TestCase
      * @var array
      */
     public $fixtures = [
-        'app.areas',
-        'app.countries',
-        'app.currencies',
-        'app.companies',
-        'app.types',
-        'app.statuses',
-        'app.groups',
-        'app.timezones',
-        'app.languages',
-        'app.alternative_languages',
-        'app.users',
-        'app.user_permissions',
-        'app.roles',
-        'app.restaurants',
         'app.companies_areas',
-        'app.opening_schedule',
-        'app.subspaces_masterplans',
-        'app.overrides_company_schedule'
+        'app.companies'
     ];
 
     /**
@@ -52,8 +36,8 @@ class AreasTableTest extends TestCase
     public function setUp()
     {
         parent::setUp();
-        $config = TableRegistry::exists('Areas') ? [] : ['className' => AreasTable::class];
-        $this->Areas = TableRegistry::get('Areas', $config);
+        $config = TableRegistry::exists('CompaniesAreas') ? [] : ['className' => CompaniesAreasTable::class];
+        $this->CompaniesAreas = TableRegistry::get('CompaniesAreas', $config);
     }
 
     /**
@@ -63,7 +47,7 @@ class AreasTableTest extends TestCase
      */
     public function tearDown()
     {
-        unset($this->Areas);
+        unset($this->CompaniesAreas);
 
         parent::tearDown();
     }

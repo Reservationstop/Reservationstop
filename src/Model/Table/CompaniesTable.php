@@ -17,8 +17,11 @@ use Cake\Validation\Validator;
  * @property \App\Model\Table\TimezonesTable|\Cake\ORM\Association\BelongsTo $Timezones
  * @property \App\Model\Table\CurrenciesTable|\Cake\ORM\Association\BelongsTo $Currencies
  * @property \App\Model\Table\LanguagesTable|\Cake\ORM\Association\BelongsTo $Languages
- * @property \App\Model\Table\AreasTable|\Cake\ORM\Association\BelongsTo $Areas
+ * @property \App\Model\Table\GeographicalAreasTable|\Cake\ORM\Association\BelongsTo $GeographicalAreas
  * @property \App\Model\Table\CompaniesTable|\Cake\ORM\Association\HasMany $ChildCompanies
+ * @property \App\Model\Table\CompaniesAreasTable|\Cake\ORM\Association\HasMany $CompaniesAreas
+ * @property \App\Model\Table\CompaniesAreasOpeningScheduleTable|\Cake\ORM\Association\HasMany $CompaniesAreasOpeningSchedule
+ * @property \App\Model\Table\CompaniesAreasOverridesScheduleTable|\Cake\ORM\Association\HasMany $CompaniesAreasOverridesSchedule
  *
  * @method \App\Model\Entity\Company get($primaryKey, $options = [])
  * @method \App\Model\Entity\Company newEntity($data = null, array $options = [])
@@ -80,12 +83,21 @@ class CompaniesTable extends Table
             'foreignKey' => 'language_id',
             'joinType' => 'INNER'
         ]);
-        $this->belongsTo('Areas', [
-            'foreignKey' => 'area_id'
+        $this->belongsTo('GeographicalAreas', [
+            'foreignKey' => 'geographical_area_id'
         ]);
         $this->hasMany('ChildCompanies', [
             'className' => 'Companies',
             'foreignKey' => 'parent_id'
+        ]);
+        $this->hasMany('CompaniesAreas', [
+            'foreignKey' => 'company_id'
+        ]);
+        $this->hasMany('CompaniesAreasOpeningSchedule', [
+            'foreignKey' => 'company_id'
+        ]);
+        $this->hasMany('CompaniesAreasOverridesSchedule', [
+            'foreignKey' => 'company_id'
         ]);
     }
 
@@ -158,10 +170,6 @@ class CompaniesTable extends Table
             ->allowEmpty('cvrp');
 
         $validator
-            ->requirePresence('areas', 'create')
-            ->notEmpty('areas');
-
-        $validator
             ->integer('price')
             ->allowEmpty('price');
 
@@ -175,11 +183,8 @@ class CompaniesTable extends Table
             ->allowEmpty('accountid');
 
         $validator
-            ->requirePresence('app_type', 'create')
-            ->notEmpty('app_type');
-
-        $validator
-            ->allowEmpty('insideview');
+            ->requirePresence('insideview', 'create')
+            ->notEmpty('insideview');
 
         $validator
             ->integer('politikenid')
@@ -218,7 +223,7 @@ class CompaniesTable extends Table
         $rules->add($rules->existsIn(['timezone_id'], 'Timezones'));
         $rules->add($rules->existsIn(['currency_id'], 'Currencies'));
         $rules->add($rules->existsIn(['language_id'], 'Languages'));
-        $rules->add($rules->existsIn(['area_id'], 'Areas'));
+        $rules->add($rules->existsIn(['geographical_area_id'], 'GeographicalAreas'));
 
         return $rules;
     }

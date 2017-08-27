@@ -1,22 +1,22 @@
 <?php
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\AreasTable;
+use App\Model\Table\CompaniesSubspacesTable;
 use Cake\ORM\TableRegistry;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\AreasTable Test Case
+ * App\Model\Table\CompaniesSubspacesTable Test Case
  */
-class AreasTableTest extends TestCase
+class CompaniesSubspacesTableTest extends TestCase
 {
 
     /**
      * Test subject
      *
-     * @var \App\Model\Table\AreasTable
+     * @var \App\Model\Table\CompaniesSubspacesTable
      */
-    public $Areas;
+    public $CompaniesSubspaces;
 
     /**
      * Fixtures
@@ -24,22 +24,23 @@ class AreasTableTest extends TestCase
      * @var array
      */
     public $fixtures = [
-        'app.areas',
-        'app.countries',
-        'app.currencies',
+        'app.companies_subspaces',
         'app.companies',
         'app.types',
-        'app.statuses',
-        'app.groups',
-        'app.timezones',
+        'app.countries',
+        'app.currencies',
+        'app.users',
         'app.languages',
         'app.alternative_languages',
-        'app.users',
         'app.user_permissions',
         'app.roles',
         'app.restaurants',
-        'app.companies_areas',
+        'app.statuses',
+        'app.groups',
+        'app.timezones',
+        'app.areas',
         'app.opening_schedule',
+        'app.companies_areas',
         'app.subspaces_masterplans',
         'app.overrides_company_schedule'
     ];
@@ -52,8 +53,8 @@ class AreasTableTest extends TestCase
     public function setUp()
     {
         parent::setUp();
-        $config = TableRegistry::exists('Areas') ? [] : ['className' => AreasTable::class];
-        $this->Areas = TableRegistry::get('Areas', $config);
+        $config = TableRegistry::exists('CompaniesSubspaces') ? [] : ['className' => CompaniesSubspacesTable::class];
+        $this->CompaniesSubspaces = TableRegistry::get('CompaniesSubspaces', $config);
     }
 
     /**
@@ -63,7 +64,7 @@ class AreasTableTest extends TestCase
      */
     public function tearDown()
     {
-        unset($this->Areas);
+        unset($this->CompaniesSubspaces);
 
         parent::tearDown();
     }
